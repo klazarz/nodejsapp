@@ -1,0 +1,133 @@
+
+
+
+@media (max-width: 600px) {
+
+  .footer_home {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: translateY(100%) rotate(-90deg);
+
+  }
+  
+  .footer_photo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform-origin: top left;
+    transform: translateY(-50%) translateX(90%) rotate(-90deg);
+
+  }
+
+
+
+}
+
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+img{border:0;max-width:100%}
+
+.lb-data .lb-caption {
+  font-size: 10px;
+  letter-spacing: 4px;
+  line-height: 1em;
+  text-transform: uppercase;
+  font: 400 10px/1.8 "Lato", sans-serif;
+  color: azure;
+}
+
+
+.caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+ .camera {
+  position: fixed;
+  text-align: center;
+  right: 30px;
+  top: 0;
+  text-transform: uppercase;
+  transform: rotate(-90deg); 
+  transform-origin: right top 0; 
+  padding: 8px;
+  font-size: 10px;
+  letter-spacing: 6px;
+}
+
+.clicksign {
+  position: fixed;
+  text-align: center;
+  right: 30px;
+  display: hidden;
+  top: -500px;
+  text-transform: uppercase;
+  transform: rotate(-90deg); 
+  transform-origin: right top 0; 
+  padding: 8px;
+  font-size: 10px;
+  letter-spacing: 6px;
+}
+
+.gallery {
+  position: relative;
+  top: 50px;
+}
+
+
+.insta-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 965px;
+  top: 50px; 
+  left: 10px;
+
+}
+
+.load-more {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+
+
+}
+
+
+.center-div
+{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+
+.marquee {
+  position: relative;
+  animation: marquee 10s linear;
+  text-align: center;
+  color:#ffffff;
+}
+@keyframes marquee {
+  0% {
+    top: 30em
+  }
+  100% {
+    top: -50em
+  }
+}
